@@ -1,0 +1,38 @@
+body {
+  background-color: #c02fd4;
+  color: #ffec1f;
+  font-family: "Galada", cursive;
+}
+
+h1 {
+  position: relative;
+  left: 580px;
+  font-size: 50px;
+}
+
+h2 {
+  position: relative;
+  left: 650px;
+}
+
+.square {
+  width: 200px;
+  height: 200px;
+  border-style: solid;
+  border-color: #00ff33;
+}
+
+.grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-content: center;
+  width: 618px;
+  height: 618px;
+  margin-left: 400px;
+}
+
+.mole {
+  background-image: url(images/mrbump.png);
+  background-size: cover;
+}
